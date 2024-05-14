@@ -10,7 +10,7 @@ public class EvenOddChecker {
         if (Checker.hasNextInt()) {
             number = Checker.nextInt();
         
-            if ( number % 3 != 0) {
+            if ( number % 2 != 0) {
                 System.out.println( number + " is an ODD Number ");
             } 
             else {
